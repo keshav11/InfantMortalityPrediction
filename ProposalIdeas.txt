@@ -12,7 +12,7 @@ Metrics:
 	4. Delivery place (35 in Fetal data)
 
 Prediction:
-	1. Prediction of health of the child (BMI etc. based on health on health of mother)
+	1. Prediction of health of the child (BMI etc. based on health of mother)
 	2. Prediction of Congenital anomalies in new born
 
 Anurag:
