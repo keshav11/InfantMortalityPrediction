@@ -1,0 +1,91 @@
+Dataset link:
+-----------------
+https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm
+
+
+Keshav:
+---------------
+Metrics:
+
+
+Prediction:
+
+
+
+
+
+
+
+
+
+Anurag:
+---------------
+Metrics:
+
+
+Prediction:
+
+
+
+
+
+
+
+
+Renu:
+---------------
+Metrics:
+
+
+Prediction:
+
+
+
+
+
+
+
+
+Shayan:
+---------------
+
+Metrics:
+---------
+	1. Apgar score by race across datasets 
+	2. abnormal conditions of newborn by race/maernal health
+	3. What is the leading cause of death in US ? 
+	4. Correlation amongst the features
+
+
+Prediction:
+-----------
+	a. Maternal Morbidity  			[Insights: assess risk of mother's life]
+	b. Weight at Delivery  			[Insights: take preventive measures, if possible] 
+	c. Possible cause of death  	[Insights: take preventive measures, if possible]
+	d. can we predict successful birth or not based on existing conditions of health for the mother and smoking etc habits, gestation parameters?
+	e. predict apgar score based on features like mother's health and habits and race
+
+
+
+
+Other notes:
+--------------
+Location Hashing for similarity
+Recommendation on personal health - disease?
+
+Data can be collected from these sources:
+1. Social Media
+2. Satellite Data
+3. Image data
+4. Genetic data
+5. Web
+6. Search Queries
+7. Network (friends of friends etc data)
+
+
+
+Utilize at least 3 of the concepts below, with at least one from data pipelines:
+----------------------------------------------------------------------------------
+Data Pipelines (Frameworks): MapReduce, Spark, Streaming Algorithms
+Analytics: Similarity Search, Link Analysis, Linear Modeling, Clustering and Dimensionality Reduction, Recommendation Systems, Social Media Text Analysis, Large-Scale Machine Learning, Distributed TensorFlow
+
