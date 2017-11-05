@@ -24,31 +24,25 @@ Metrics:
 	1. Method of delivery
 	2. Tobacco Usage
 	3. Father age
-	4. 
+	
 Prediction:
 	1. Does risk of fetal death increases as method of delivery is changed or different methods are used to reduce the risk which is already high.
 	2. Does Tobacco usage by mother increases the risk of fetal death or does it have any other effects during the pregnancy time.
 	3. Does the risk of fetal death increases with the increases in age of the father. What can be done to reduce this?
-	4.
-
-
-
 
 Renu:
 ---------------
 Metrics:
 	1. Education
 	2. Hispanic origin
+	3. Race data
 
 Prediction:
 	1. Does educated parents have any effect on the fetal death. May be educated parents earn more, hence they can spend more money to go to good doctors and can eat healthy food.
 	2. Does Hispanic origin has any relation to fetal death. Hispanic origin people are less likely to be obese and are more fit compared to normal americans, this might be the reason that Hispanic origin people have different fetal death rate.
+	3. Similar to hispanic people, race data can be used to show correlation between healthy lifestyle of different rates and their corresponding fetal death rate.
 	
 	
-
-
-
-
 
 
 
