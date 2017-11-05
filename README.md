@@ -6,5 +6,5 @@ Our BigData Project for Fall 2017 on SDG 3 - Health
 
 [Anurag Arora ](https://github.com/geekyspartan)
 
-[Keshav Gupta] (https://github.com/keshav11)
+[Keshav Gupta](https://github.com/keshav11)
 
