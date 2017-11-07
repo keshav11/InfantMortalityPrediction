@@ -6,14 +6,16 @@ https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm
 Keshav:
 ---------------
 Metrics:
-	1. Month of delivery
-	2. Prenatal care
-	3. Birth interval
-	4. Delivery place (35 in Fetal data)
+	1. Month of delivery 
+	2. Prenatal care (Pg. 58)
+	3. Birth interval (Pg. 58)
+	4. Place of birth (Pg. 60)
+	5. Infant breastfed (Pg. 70)
 
 Prediction:
-	1. Prediction of health of the child (BMI etc. based on health of mother)
+	1. Prediction of health of the child (Apgar score etc. based on health of mother)
 	2. Prediction of Congenital anomalies in new born
+	3. Correlation between birth interval and Apgar score
 
 Anurag:
 ---------------
