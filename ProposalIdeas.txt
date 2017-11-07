@@ -13,7 +13,7 @@ Metrics:
 	5. Infant breastfed (Pg. 70)
 
 Prediction:
-	1. Prediction of health of the child (Apgar score etc. based on health of mother)
+	1. Prediction of health of the child (Apgar score etc. based on health of mother and other factors)
 	2. Prediction of Congenital anomalies in new born
 	3. Correlation between birth interval and Apgar score
 
