@@ -1,0 +1,20 @@
+11/7 meeting with professor:
+
+1. Use 2014 "Birth Data Files" - for successful births (~5 GB data)
+2. Use 2014 "Period Linked Birth-Infant Death Data Files" (~5 GB data)
+
+Metrics:
+------------
+1. Which features are most pre-dominant in successful births 
+2. Which features are most pre-dominant in unsuccessful births
+
+Prediction:
+-----------
+1. Based on features values can we predict the survival of the infant in %.
+
+
+Utilize at least 3 of the concepts below, with at least one from data pipelines:
+----------------------------------------------------------------------------------
+Data Pipelines (Frameworks): Spark
+Analytics: Similarity Search, Link Analysis, Linear Modeling, Clustering and Dimensionality Reduction,  Large-Scale Machine Learning, Distributed TensorFlow (need to figure out which ones will be most applicable besides machine learning)
+
