@@ -42,3 +42,12 @@ Topics to figure out:
 3. 	Clustering and Dimensionality Reduction(Keshav)
 4.  Large Scale Machine Learning (Shayan)
 
+
+Google Doc:
+-------------
+https://docs.google.com/document/d/11KH5w_qdKpl2YnbgQ3I7wxlqMbIk1KV8DcSErnlUXXk/edit
+
+Google Presentation:
+-----------------------
+https://docs.google.com/presentation/d/1mPmHjyJZVHrvnXTaRUJwl2dt0GkrhftjIX1aprHcqCY/edit#slide=id.p
+
