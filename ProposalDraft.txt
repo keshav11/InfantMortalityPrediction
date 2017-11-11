@@ -18,3 +18,27 @@ Utilize at least 3 of the concepts below, with at least one from data pipelines:
 Data Pipelines (Frameworks): Spark
 Analytics: Similarity Search, Link Analysis, Linear Modeling, Clustering and Dimensionality Reduction,  Large-Scale Machine Learning, Distributed TensorFlow (need to figure out which ones will be most applicable besides machine learning)
 
+
+
+Tasks:
+-------
+All presentations should include: 
+●	(Anurag)Big Picture Scope: Problem definition (if applicable) or need in society addressed  
+●	(Anurag)Motivation: Why big data? Why should people care?
+●	(Renu)Sustainable Development Goal: How are you addressing the SDG?
+●	(Renu)Data Description: Source(s), number of variables / features. Number of observations.
+●	(Keshav)Methods Proposed.  How are you going to solve / analyze. 
+●	(Keshav)Specific Experiments / Analyses Proposed: What are the specific experiments or analyses you intend to run? 
+●	(Shayan)Mock-up or Preliminary Results: What are the key figures / tables you home to come out of your work-- show a “fake” example rather than just tell. Any prototyping on small data?
+●	Team Work. What will each team member be responsible for? (may deviate based on how project develops, but teams at least need a plan). 
+●	(Shayan)Summary of course concepts. (1 slide): Identify how it relates to the course.
+●	Conclusion (1 slide): Summarize the main contributions of your work. 
+
+
+Topics to figure out:
+---------------------
+1. 	Similarity Search (Anurag)
+2.  Distributed Tensor Flow (Renu)
+3. 	Clustering and Dimensionality Reduction(Keshav)
+4.  Large Scale Machine Learning (Shayan)
+
