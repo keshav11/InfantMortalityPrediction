@@ -26,13 +26,13 @@ All presentations should include:
 ●	(Anurag)Big Picture Scope: Problem definition (if applicable) or need in society addressed  
 ●	(Anurag)Motivation: Why big data? Why should people care?
 ●	(Renu)Sustainable Development Goal: How are you addressing the SDG?
-●	(Renu)Data Description: Source(s), number of variables / features. Number of observations.
-●	(Keshav)Methods Proposed.  How are you going to solve / analyze. 
-●	(Keshav)Specific Experiments / Analyses Proposed: What are the specific experiments or analyses you intend to run? 
+●	(Shayan)Data Description: Source(s), number of variables / features. Number of observations.
+●	(All)Methods Proposed.  How are you going to solve / analyze. 
+●	(All)Specific Experiments / Analyses Proposed: What are the specific experiments or analyses you intend to run? 
 ●	(Shayan)Mock-up or Preliminary Results: What are the key figures / tables you home to come out of your work-- show a “fake” example rather than just tell. Any prototyping on small data?
-●	Team Work. What will each team member be responsible for? (may deviate based on how project develops, but teams at least need a plan). 
-●	(Shayan)Summary of course concepts. (1 slide): Identify how it relates to the course.
-●	Conclusion (1 slide): Summarize the main contributions of your work. 
+●	(Keshav)Team Work. What will each team member be responsible for? (may deviate based on how project develops, but teams at least need a plan). 
+●	(All)Summary of course concepts. (1 slide): Identify how it relates to the course.
+●	(Keshav)Conclusion (1 slide): Summarize the main contributions of your work. 
 
 
 Topics to figure out:
@@ -50,4 +50,15 @@ https://docs.google.com/document/d/11KH5w_qdKpl2YnbgQ3I7wxlqMbIk1KV8DcSErnlUXXk/
 Google Presentation:
 -----------------------
 https://docs.google.com/presentation/d/1mPmHjyJZVHrvnXTaRUJwl2dt0GkrhftjIX1aprHcqCY/edit#slide=id.p
+
+
+Tasks:
+-----------
+1. 	Data Load
+2.	Data Cleaning
+3. 	Feature Extraction
+4. 	Dimensionality Reduction
+5. 	Feature Enrichment
+6. 	Model Training
+7. 	Model Evaluation
 
