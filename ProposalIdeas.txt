@@ -1,6 +1,15 @@
 Dataset link:
 -----------------
 https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm
+Period Linked Birth-Infant Death Data Files
+2014
+
+Links to guide and data:
+--------------------------
+ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/DVS/periodlinked/LinkPE14Guide.pdf
+ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/periodlinkedus/LinkPE14US.zip
+ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/periodlinkedter/LinkPE14PS.zip
+
 
 
 Keshav:
@@ -88,3 +97,21 @@ Utilize at least 3 of the concepts below, with at least one from data pipelines:
 Data Pipelines (Frameworks): MapReduce, Spark, Streaming Algorithms
 Analytics: Similarity Search, Link Analysis, Linear Modeling, Clustering and Dimensionality Reduction, Recommendation Systems, Social Media Text Analysis, Large-Scale Machine Learning, Distributed TensorFlow
 
+
+
+Exploratory Data Analysis - Feature Distribution(s), Correlation
+natality: the ratio of the number of births to the size of the population; birth rate.
+
+
+Label indicators:
+-------------------
+1356-1358 3  AGED Age at Death in Days  000-365 Number of days
+1362 1 MANNER Manner of Death 1 Accident etc
+1368-1371 4 UC0D ICD Code (underlying cause of death) [Page 51]
+1670 1 HOSPD Place of Death and Decendent’s Status 1 Hospital, clinic or Medical Center – Inpatient
+1671 1 DWEEKDAY Day of Week of Death 1 2 Sunday
+1742-1743 2 DOD_MM Month of Death 01 January
+
+
+568 1 P,G ILIVE Infant Living at Time of Report Y Yes
+Stats from page 56
