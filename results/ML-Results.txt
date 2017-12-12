@@ -1,0 +1,31 @@
+All results run on entire 5 GB dataset
+
+Dataset Summary:
+------------------
+Total Records:			4021418
+Infants Living:  		3998175
+Infants Passed Away:  	23243
+Features used:			148
+
+Logistic Regression:
+-----------------------
+HyperParameters:
+PCA:					50
+AUROC:					0.5
+AUPR:					0.502898411425276.
+
+
+Support Vector Machines:
+-----------------------
+HyperParameters:
+PCA:					50
+AUROC:
+AUPR:
+
+
+Random Forest:
+----------------
+HyperParameters:
+PCA:					50
+AUROC:					0.9999994045588186
+AUPR:					0.9998931550076133
