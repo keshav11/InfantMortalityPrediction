@@ -9,23 +9,31 @@ Features used:			148
 
 Logistic Regression:
 -----------------------
-HyperParameters:
+HyperParameters:		maxIter=10, regParam=0.3, elasticNetParam=0.8, family="multinomial"
 PCA:					50
 AUROC:					0.5
 AUPR:					0.502898411425276.
 
 
-Support Vector Machines:
+Gradient Boosted Trees
 -----------------------
-HyperParameters:
+HyperParameters:		maxIter=10
 PCA:					50
-AUROC:
-AUPR:
+AUROC:					0.9999999999999999 
+AUPR:					1.0
 
 
 Random Forest:
 ----------------
-HyperParameters:
+HyperParameters:		maxBins=5000, numTrees=10, maxDepth=2
 PCA:					50
 AUROC:					0.9999994045588186
 AUPR:					0.9998931550076133
+
+
+Decision Tree Classifier
+------------------------
+HyperParameters:		None
+PCA:					50
+AUROC:					1.0
+AUPR:					1.0
