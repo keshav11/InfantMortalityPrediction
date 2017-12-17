@@ -1,5 +1,5 @@
 # BigDataSDG3
-Our BigData Project for Fall 2017 on SDG 3 - Health
+Our BigData Project for Fall 2017 on SDG 3 - Good health and well being
 
 ### Team
 Code: IPYNB notebooks for various ML classifers, Similarity Search and Clustering. File name clearly mentions the methodology.
