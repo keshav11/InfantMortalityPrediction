@@ -12485,10 +12485,11 @@ After cleanup count of PNDF  5138
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pyspark.ml.feature</span> <span class="k">import</span> <span class="n">PCA</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pprint</span>
+<span class="kn">from</span> <span class="nn">pyspark.ml.feature</span> <span class="k">import</span> <span class="n">PCA</span>
 <span class="kn">from</span> <span class="nn">pyspark.mllib.linalg.distributed</span> <span class="k">import</span> <span class="n">RowMatrix</span>
 <span class="n">num_principal_comp</span> <span class="o">=</span> <span class="mi">50</span>
 <span class="n">pca</span> <span class="o">=</span> <span class="n">PCA</span><span class="p">(</span><span class="n">k</span><span class="o">=</span><span class="n">num_principal_comp</span><span class="p">,</span> <span class="n">inputCol</span><span class="o">=</span><span class="s1">&#39;normalizeFeatures&#39;</span><span class="p">,</span> <span class="n">outputCol</span><span class="o">=</span><span class="s1">&#39;features_pca&#39;</span><span class="p">)</span>
@@ -12499,8 +12500,8 @@ After cleanup count of PNDF  5138
 <span class="n">exact</span> <span class="o">=</span> <span class="n">mat</span><span class="o">.</span><span class="n">columnSimilarities</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
 <span class="n">similarCases</span> <span class="o">=</span> <span class="n">exact</span><span class="o">.</span><span class="n">entries</span><span class="o">.</span><span class="n">take</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
 <span class="k">for</span> <span class="n">case</span> <span class="ow">in</span> <span class="n">similarCases</span><span class="p">:</span>
-    <span class="k">if</span> <span class="n">case</span><span class="o">.</span><span class="n">value</span> <span class="o">&gt;</span> <span class="mf">0.8</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Record &quot;</span><span class="p">,</span> <span class="n">case</span><span class="o">.</span><span class="n">i</span><span class="p">,</span> <span class="s2">&quot; is similar to &quot;</span><span class="p">,</span> <span class="n">case</span><span class="o">.</span><span class="n">j</span><span class="p">,</span> <span class="s2">&quot; and have &quot;</span><span class="p">,</span> <span class="n">case</span><span class="o">.</span><span class="n">value</span><span class="p">,</span> <span class="s2">&quot; similarity&quot;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">case</span><span class="o">.</span><span class="n">value</span> <span class="o">&gt;</span> <span class="mf">0.5</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Record &quot;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">%5s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">case</span><span class="o">.</span><span class="n">i</span><span class="p">,</span> <span class="s2">&quot; is similar to record &quot;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="si">%5s</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">case</span><span class="o">.</span><span class="n">j</span><span class="p">,</span> <span class="s2">&quot; and have &quot;</span><span class="p">,</span> <span class="s2">&quot;</span><span class="si">{:1.9f}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">case</span><span class="o">.</span><span class="n">value</span><span class="p">),</span> <span class="s2">&quot; similarity&quot;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12517,21 +12518,24 @@ After cleanup count of PNDF  5138
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Record  29  is similar to  46  and have  0.99930611130992  similarity
-Record  12  is similar to  26  and have  0.9987869608604457  similarity
-Record  18  is similar to  28  and have  0.9978063248867943  similarity
-Record  6  is similar to  32  and have  0.9972818038967332  similarity
-Record  4  is similar to  20  and have  0.9966160318248382  similarity
-Record  6  is similar to  41  and have  0.9976735257498928  similarity
-Record  3  is similar to  31  and have  0.9940197060752942  similarity
-Record  35  is similar to  48  and have  0.9993894517555358  similarity
-Record  11  is similar to  24  and have  0.9973250948200681  similarity
-Record  8  is similar to  34  and have  0.9992359994433425  similarity
-Record  33  is similar to  39  and have  0.9952970897415493  similarity
-Record  11  is similar to  22  and have  0.9924551599376704  similarity
-Record  14  is similar to  26  and have  0.9951606333435554  similarity
-Record  23  is similar to  32  and have  0.9934535065430269  similarity
-Record  28  is similar to  33  and have  0.9959885878586721  similarity
+<pre>Record     29  is similar to record     46  and have  0.999306111  similarity
+Record     12  is similar to record     26  and have  0.998786961  similarity
+Record     18  is similar to record     28  and have  0.997806325  similarity
+Record      6  is similar to record     32  and have  0.997281804  similarity
+Record      4  is similar to record     20  and have  0.996616032  similarity
+Record      6  is similar to record     41  and have  0.997673526  similarity
+Record      3  is similar to record     31  and have  0.994019706  similarity
+Record     10  is similar to record     27  and have  0.682148123  similarity
+Record     35  is similar to record     48  and have  0.999389452  similarity
+Record     11  is similar to record     24  and have  0.997325095  similarity
+Record     19  is similar to record     24  and have  0.698558498  similarity
+Record     27  is similar to record     32  and have  0.681731487  similarity
+Record      8  is similar to record     34  and have  0.999235999  similarity
+Record     33  is similar to record     39  and have  0.995297090  similarity
+Record     11  is similar to record     22  and have  0.992455160  similarity
+Record     14  is similar to record     26  and have  0.995160633  similarity
+Record     23  is similar to record     32  and have  0.993453507  similarity
+Record     28  is similar to record     33  and have  0.995988588  similarity
 </pre>
 </div>
 </div>
