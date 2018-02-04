@@ -1,11 +1,14 @@
-# BigDataSDG3
-Our BigData Project for Fall 2017 on SDG 3 - Health
+## Infant Mortality Data Prediction and Analysis
 
-### Team
-[Renu Rani](https://github.com/techiepanda)
+### Motivation
+Done as part of the class project for [Big Data Analytics (Fall '17)](http://www3.cs.stonybrook.edu/~has/CSE545/) course taught by Prof. Andrew Schwartz at Stony Brook University.
 
-[Anurag Arora ](https://github.com/geekyspartan)
+### Introduction
 
-[Keshav Gupta](https://github.com/keshav11)
+We analyzed the infant mortality data from Center for Disease Control and Prevention and designed a framework to predict the risk of infant death and provide reference to similar pregnancy cases in the past to help the doctors in taking informed decision.
 
-[Shayan Ray](https://github.com/shayanray)
+### Contributions
+* [Keshav Gupta](https://github.com/keshav11)
+* [Renu Rani](https://github.com/techiepanda)
+* [Anurag Arora ](https://github.com/geekyspartan)
+* [Shayan Ray](https://github.com/shayanray)
